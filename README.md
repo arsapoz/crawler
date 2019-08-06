@@ -1,5 +1,5 @@
 # crawler
-Most basic crawler that scrapes whole html of page and creates those files
+Scrap quotes page and make a file with a list of quotes in JSON format, containing text and author
 
 ## run crawler by typing in terminal :
-scrapy crawl quotes
+scrapy runspider spiders/quotes_spider.py -o quotes.json
